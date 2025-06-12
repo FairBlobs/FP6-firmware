@@ -1,0 +1,9 @@
+mcfg_hw/generic/common/Milos/STANDALONE/LA/DSDA_Hybrid/mcfg_hw.mbn
+mcfg_hw/generic/common/Milos/STANDALONE/LA/DSDA_Hybrid_CDMALess/mcfg_hw.mbn
+mcfg_hw/generic/common/Milos/STANDALONE/LA/DSDA_Hybrid_SAOnly/mcfg_hw.mbn
+mcfg_hw/generic/common/Milos/STANDALONE/LA/DSDS/mcfg_hw.mbn
+mcfg_hw/generic/common/Milos/STANDALONE/LA/DSDS_CDMALess/mcfg_hw.mbn
+mcfg_hw/generic/common/Milos/STANDALONE/LA/DSDS_SAOnly/mcfg_hw.mbn
+mcfg_hw/generic/common/Milos/STANDALONE/LA/SS/mcfg_hw.mbn
+mcfg_hw/generic/common/Milos/STANDALONE/LA/SS_CDMALess/mcfg_hw.mbn
+mcfg_hw/generic/common/Milos/STANDALONE/LA/SS_SAOnly/mcfg_hw.mbn
