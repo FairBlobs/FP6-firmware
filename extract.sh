@@ -25,8 +25,6 @@ trap cleanup EXIT
 unzip -j -d "$tmpdir" "$1" \*/images/BTFM.bin \*/images/NON-HLOS.bin \*/images/super.img
 
 ### NON-HLOS.bin ###
-# NFV17071TA00.mbn
-
 sudo mount -o ro "$tmpdir"/NON-HLOS.bin "$mount"
 cp "$mount"/image/adsp* .
 cp "$mount"/image/battmgr.jsn .
@@ -37,8 +35,6 @@ cp "$mount"/image/qca6750/wpss{.mdt,.b*} .
 sudo umount "$mount"
 
 ### BTFM.bin ###
-# BFV17071TA10.mbn
-
 sudo mount -o ro "$tmpdir"/BTFM.bin "$mount"
 cp "$mount"/image/msbtfw12.mbn .
 cp "$mount"/image/msnv12.bin .
