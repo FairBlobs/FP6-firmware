@@ -1,0 +1,184 @@
+{
+    "config": {
+        "hw_platform": ["MTP"], 
+        "soc_id": ["636"]
+    },
+    "stk3bcx_0": {
+        "owner": "sns_stk3bcx", 
+        ".ambient_light": {
+            "owner": "sns_stk3bcx", 
+            ".config": {
+                "owner": "sns_stk3bcx", 
+                "hw_id": {"ver": "0", "type": "int", 
+                    "data": "0"
+                }, 
+                "sync_stream": {"ver": "0", "type": "int", 
+                    "data": "0"
+                }, 
+                "is_dri": {"ver": "0", "type": "int", 
+                    "data": "0"
+                }, 
+                "res_idx": {"ver": "0", "type": "int", 
+                    "data": "0"
+                }
+            }
+        }, 
+        ".rgb": {
+            "owner": "sns_stk3bcx", 
+            ".config": {
+                "owner": "sns_stk3bcx", 
+                "hw_id": {"ver": "0", "type": "int", 
+                    "data": "0"
+                }, 
+                "sync_stream": {"ver": "0", "type": "int", 
+                    "data": "0"
+                }, 
+                "is_dri": {"ver": "0", "type": "int", 
+                    "data": "0"
+                }, 
+                "res_idx": {"ver": "0", "type": "int", 
+                    "data": "1"
+                }
+            }
+        }, 
+        ".proximity": {
+            "owner": "sns_stk3bcx", 
+            ".config": {
+                "owner": "sns_stk3bcx", 
+                "hw_id": {"ver": "0", "type": "int", 
+                    "data": "0"
+                }, 
+                "sync_stream": {"ver": "0", "type": "int", 
+                    "data": "0"
+                }, 
+                "is_dri": {"ver": "0", "type": "int", 
+                    "data": "0"
+                }, 
+                "res_idx": {"ver": "0", "type": "int", 
+                    "data": "0"
+                }
+            }
+        }
+    },
+    "stk3bcx_0_platform": {
+        "owner": "sns_stk3bcx",
+        ".rgb": {
+            "owner": "sns_stk3bcx", 
+            ".fac_cal": {
+                "owner": "sns_stk3bcx",
+                "r_channel_scale": {"ver": "1", "type": "flt", 
+                    "data": "1.0"
+                }, 
+                "r_channel_bias": {"ver": "1", "type": "flt", 
+                    "data": "100.0"
+                }, 
+                "g_channel_scale": {"ver": "1", "type": "flt", 
+                    "data": "1.0"
+                }, 
+                "g_channel_bias": {"ver": "1", "type": "flt", 
+                    "data": "101.0"
+                }, 
+                "b_channel_scale": {"ver": "1", "type": "flt", 
+                    "data": "1.0"
+                }, 
+                "b_channel_bias": {"ver": "1", "type": "flt", 
+                    "data": "102.0"
+                }, 
+                "c_channel_scale": {"ver": "1", "type": "flt", 
+                    "data": "1.0"
+                }, 
+                "c_channel_bias": {"ver": "2", "type": "flt", 
+                    "data": "103.0"
+                }
+            }
+        }, 
+        ".config": {
+            "owner": "sns_stk3bcx", 
+            "max_bus_speed_khz": {"ver": "0", "type": "int", 
+                "data": "400"
+            }, 
+            "bus_type": {"ver": "0", "type": "int", 
+                "data": "0"
+            }, 
+            "min_bus_speed_khz": {"ver": "0", "type": "int", 
+                "data": "400"
+            }, 
+            "irq_is_chip_pin": {"ver": "0", "type": "int", 
+                "data": "1"
+            }, 
+            "irq_pull_type": {"ver": "0", "type": "int", 
+                "data": "2"
+            }, 
+            "rail_on_state": {"ver": "0", "type": "int", 
+                "data": "2"
+            }, 
+            "vdd_rail": {"ver": "0", "type": "str", 
+                "data": "/pmic/client/sensor_vdd"
+            }, 
+            "slave_config": {"ver": "0", "type": "int", 
+                "data": "72"
+            }, 
+            "num_rail": {"ver": "0", "type": "int", 
+                "data": "2"
+            }, 
+            "reg_addr_type": {"ver": "0", "type": "int", 
+                "data": "0"
+            }, 
+            "irq_trigger_type": {"ver": "0", "type": "int", 
+                "data": "1"
+            }, 
+            "rigid_body_type": {"ver": "0", "type": "int", 
+                "data": "0"
+            }, 
+            "irq_drive_strength": {"ver": "0", "type": "int", 
+                "data": "0"
+            }, 
+            "vddio_rail": {"ver": "0", "type": "str", 
+                "data": "/pmic/client/sensor_vddio"
+            }, 
+           
+            "dri_irq_num": {"ver": "0", "type": "int", 
+                "data": "73"
+            }, 
+            "bus_instance": {"ver": "0", "type": "int", 
+                "data": "2"
+            }
+        }, 
+        ".als": {
+            "owner": "sns_stk3bcx", 
+            ".fac_cal": {
+                "owner": "sns_stk3bcx", 
+                "scale": {"ver": "0", "type": "flt", 
+                    "data": "1.0"
+                }, 
+                "bias": {"ver": "0", "type": "flt", 
+                    "data": "5000.0"
+                }
+            }
+        }, 
+        ".ps": {
+            "owner": "sns_stk3bcx", 
+            ".fac_cal": {
+                "owner": "sns_stk3bcx",
+                "factory_ct_3cm": {"ver": "0", "type": "flt", 
+                    "data": "0.0"
+                }, 
+                "factory_ct_5cm": {"ver": "0", "type": "flt", 
+                    "data": "0.0"
+                }, 
+                "near_threshold": {"ver": "0", "type": "flt", 
+                    "data": "0.0"
+                }, 
+                "far_threshold": {"ver": "0", "type": "flt", 
+                    "data": "0.0"
+                }, 
+                "ctir_config": {"ver": "0", "type": "flt", 
+                    "data": "0.0"
+                }, 
+                "factory_Ct": {"ver": "0", "type": "flt", 
+                    "data": "0.0"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+{"sns_dynamic_libraries.dyn_lib_2":{"owner":"dynamic_sensor","name":{"type":"str","ver":"0","data":"lsm6dso_normal.so"},"reg_fun":{"type":"str","ver":"0","data":"sns_register_lsm6dso"},"reg_cnt":{"type":"int","ver":"0","data":"1"},"detected":{"type":"int","ver":"0","data":"0"}}}

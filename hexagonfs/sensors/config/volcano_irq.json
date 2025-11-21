@@ -1,0 +1,9 @@
+{
+  "config": {
+    "hw_platform": ["MTP", "IDP", "IDPS", "Surf", "RCM", "QRD", "HDK"],
+    "soc_id": ["641", "640", "636", "657", "658"]
+  },
+  "sns_irq": {
+    "owner": "sns_irq"
+  }
+}
